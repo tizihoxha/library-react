@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import MainLoader from "../../Components/Common/MainLoader";
 import {toast} from "react-toastify"
 import { useDeleteCategoriesMutation, useGetCategoriesQuery } from "../../Apis/categoryApi";
+import { categoryModel } from "../../Interfaces";
 
 function CategoryList() {
   const [deleteCategories] = useDeleteCategoriesMutation();
