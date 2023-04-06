@@ -92,4 +92,4 @@ function BookDetails() {
   );
 }
 
-export default withAuth(BookDetails);
+export default BookDetails;

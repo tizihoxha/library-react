@@ -1,6 +1,6 @@
 import Home from "./Home";
 import BookDetails from "./BookDetails";
-import NotFound from "./NotFound";
+
 import Register from "./Register";
 import Login from "./Login";
 import AuthenticationTest from "./AuthenticationTest";
@@ -22,7 +22,7 @@ export {
   CategoryList,
   Home,
   BookDetails,
-  NotFound,
+
   Register,
   Login,
   AuthenticationTest,

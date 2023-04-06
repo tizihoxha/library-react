@@ -5,7 +5,7 @@ import { userModel } from "../Interfaces";
 import jwt_decode from "jwt-decode"
 import { Header } from "../Components/Layout";
 import { Route, Routes } from "react-router-dom";
-import { AccessDenied, AuthenticationTest, AuthenticationTestAdmin, AuthorCreateEdit, AuthorList, BookCreateEdit, BookDetails, BookL, CategoryCreateEdit, CategoryList, Home, Login, NotFound, Register } from "../Pages";
+import { AccessDenied, AuthenticationTest, AuthenticationTestAdmin, AuthorCreateEdit, AuthorList, BookCreateEdit, BookDetails, BookL, CategoryCreateEdit, CategoryList, Home, Login, Register } from "../Pages";
 import AuthorsList from "../Components/Page/Authors/AuthorsList";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/bookDetails/:bookId" element={<BookDetails />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
+        
           <Route path="/authorsList" element={<AuthorsList />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
