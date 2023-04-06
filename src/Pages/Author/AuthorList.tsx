@@ -14,7 +14,7 @@ function AuthorList() {
       deleteAuthors(id),
       {
         pending: "Processing your request...",
-        success: "Category Deleted Successfully 👌",
+        success: "Author Deleted Successfully 👌",
         error: "Error encoutnered 🤯",
       },
       {

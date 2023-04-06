@@ -15,7 +15,7 @@ function BookL() {
       deleteBook(id),
       {
         pending: "Processing your request...",
-        success: "Menu Item Deleted Successfully 👌",
+        success: "Book Deleted Successfully 👌",
         error: "Error encoutnered 🤯",
       },
       {
