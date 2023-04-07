@@ -3,6 +3,7 @@ import { useGetAuthorByIdQuery, useGetBookByIdQuery, useGetCategoryByIdQuery } f
 import { categoryModel, userModel } from "../Interfaces";
 import { RootState } from "../Storage/Redux/store";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { withAuth } from "../HOC";
 
 
 function BookDetails() {
@@ -92,4 +93,4 @@ function BookDetails() {
   );
 }
 
-export default BookDetails;
+export default withAuth(BookDetails);

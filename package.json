@@ -1,7 +1,7 @@
 {
   "name": "library-react",
   "version": "0.1.0",
-  "homepage": "https://tizihoxha.github.io",
+  "homepage": "https://tizihoxha.github.io/library-react",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
