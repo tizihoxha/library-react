@@ -30,7 +30,7 @@ function AuthorsList() {
           <AuthorsCard author={author} key={index} />
         ))}
     </div>
-    <div className="text-left mt-4  mb-8" style={{ marginBottom: '50px', marginLeft: '725px'  }}>
+    <div className="text-left mt-4  mb-8" style={{ marginBottom: '50px', marginLeft: '650px'  }}>
       <Link to="/" className="btn btn-outline-dark p">
         Back to Home
       </Link>
